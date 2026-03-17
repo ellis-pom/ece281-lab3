@@ -138,11 +138,11 @@ begin
         w_right <= '1';
     
         wait for k_clk_period;
-            assert w_lights_R = "100"
+            assert w_lights_R = "001"
             report "Right stage 1 failed" severity failure;
     
         wait for k_clk_period;
-            assert w_lights_R = "110"
+            assert w_lights_R = "011"
             report "Right stage 2 failed" severity failure;
     
         wait for k_clk_period;

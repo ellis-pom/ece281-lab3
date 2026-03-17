@@ -115,9 +115,9 @@ begin
     o_lights_L(1) <= f_Q(6) or f_Q(1) or f_Q(0);           -- LB
     o_lights_L(0) <= f_Q(6) or f_Q(2) or f_Q(1) or f_Q(0); -- LA
     
-    o_lights_R(2) <= f_Q(6) or f_Q(5) or f_Q(4) or f_Q(3); -- RC
+    o_lights_R(0) <= f_Q(6) or f_Q(5) or f_Q(4) or f_Q(3); -- RC
     o_lights_R(1) <= f_Q(6) or f_Q(4) or f_Q(3);           -- RB
-    o_lights_R(0) <= f_Q(6) or f_Q(3);                     -- RA
+    o_lights_R(2) <= f_Q(6) or f_Q(3);                     -- RA
     ---------------------------------------------------------------------------------
 	
 	-- PROCESSES --------------------------------------------------------------------
